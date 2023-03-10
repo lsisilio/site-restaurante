@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+
+    <!--Ícone do site-->
+    <link rel="icon" href="./images/icon_logo.ico" type="image/x-icon">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Fonte utilizada-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-right bg-navbar">
+        <div class="container">
+            <!-- Marca do site -->
+            <a class="navbar-brand" href="./index.html">
+                <img width="125px" height="125px" src="./images/logoRestaurant1.png" alt="Logo de nosso restaurante">
+            </a>
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"> Início </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./delivery.html"> Delivery </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cardapio.html"> Cardápio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> Contate-nos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trabalhe_aqui.html"> Trabalhe Conosco </a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <a href="#" id="link_insta" style="font-size:24px;"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--Barra de Progresso e Título-->
+    <div class="mt-5 text-center">
+        <img src="./images/4.png" alt="Barra de Progresso" width="500px">
+        <h1>Acompanhe</h1>
+    </div>
+    <!--Separação Visual-->
+    <hr class="col-6" style="clear: both; border: 0; height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--vermelho-escuro), rgba(0, 0, 0, 0));">
+    
+    
+    <!--Conteúdo Principal-->
+    <main>
+        <div class="container mx-auto">
+            <div class="mx-0 col-5 mt-5 float-left">
+                <h2> Previsão de entrega: <b>14h35</b></h2>
+                <h4 class="mt-3">Status atual:</h4>
+                <p><b>14:28</b> - Drone saiu para entrega.</p>
+                <hr style="height: 5px;">
+                <p><b>14:25</b> - Pedido pronto.</p>
+                <p><b>14:12</b> - Pedido está sendo preparado.</p>
+                <p><b>14:11</b> - Pedido confirmado.</p>
+            </div>
+
+            <!--Mapa-->
+            <div class="ml-0 pr-0 col-6 mt-5 float-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14174.634527358!2d-46.62308609372715!3d-23.57055600685259!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1592170112771!5m2!1spt-BR!2sbr" width="500" height="360" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </main> 
+</body>
+</html>

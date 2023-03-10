@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+
+    <!--Ícone do site-->
+    <link rel="icon" href="./images/icon_logo.ico" type="image/x-icon">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Fonte utilizada-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-right bg-navbar">
+        <div class="container">
+            <!-- Marca do site -->
+            <a class="navbar-brand" href="#">
+                <img width="125px" height="125px" src="./images/logoRestaurant1.png" alt="Logo de nosso restaurante">
+            </a>
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"> Início </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./delivery.html"> Delivery </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cardapio.html"> Cardápio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> Contate-nos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Trabalhe Conosco </a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <a href="#" id="link_insta" style="font-size:24px;"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Conteúdo Principal-->
+    <main>
+        <h1 class="text-center my-4">TRABALHE CONOSCO</h1>
+
+        <!--Formulário-->
+        <form>
+            <div class="form-group col-5 mx-auto">
+                <label for="inputName">Nome</label>
+                <input type="name" class="form-control" id="inputName">
+            </div>
+            <div class="form-group col-5 mx-auto">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="form-group col-5 mx-auto">
+                <label for="inputEndereco">Endereço</label>
+                <input type="text" class="form-control" id="inputEndereco">
+            </div>
+            <div class="form-group col-5 mx-auto">
+                <label for="inputCargo">Cargo</label>
+                <select id="inputCargo" class="form-control">
+                  <option selected>Escolha...</option>
+                  <option>Cozinheiro</option>
+                  <option>Garçom</option>
+                  <option>Atendente</option>
+                  <option>Gerenciador de Mídias Sociais</option>
+                </select>
+              </div>
+            <div class="form-group col-5 mx-auto">
+                <label for="inputFile">Currículo</label>
+                <input type="file" class="form-control-file" id="inputFile">
+              </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary mt-3" id="btnSubmitContact">ENVIAR</button>
+            </div>
+          </form>
+    </main>
+</body>
+
+<!--Footer-->
+<footer class="mt-5">
+    <br>
+    <p>Avenida Nove de Julho, 1932</p>
+    <p>Copyright © 2020 Restaurante. All rights reserved.</p>
+</footer>
+</html>

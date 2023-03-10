@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    
+    <!--Ícone do site-->
+    <link rel="icon" href="./images/icon_logo.ico" type="image/x-icon">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Fonte utilizada-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-right bg-navbar">
+        <div class="container">
+            <!-- Marca do site -->
+            <a class="navbar-brand" href="#">
+                <img width="125px" height="125px" src="./images/logoRestaurant1.png" alt="Logo de nosso restaurante">
+            </a>
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"> Início </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./delivery.html"> Delivery </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Cardápio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> Contate-nos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trabalhe_aqui.html"> Trabalhe Conosco </a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <a href="#" id="link_insta" style="font-size:24px;"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Conteúdo Principal-->
+    <main>
+        <h1 class="text-center my-4">CARDÁPIO</h1>
+        <hr class="col-8" style="clear: both; border: 0; height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--vermelho-escuro), rgba(0, 0, 0, 0));">
+        
+        <div class="mt-5 text-center">
+            <h3>Pratos Especiais</h3>
+        </div>
+        <!--DIV que contém a primeira categoria de produtos-->
+        <div class="container categoria-cardapio mb-5">
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/eisbein.jpg" alt="Eisbein" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Eisbein</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/kartoffelk.jpg" alt="Kartoffelklösse" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Kartoffelklösse</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/wurst.jpg" alt="Wurst" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Wurst</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/kartoffelsalat.jpg" alt="Kartoffelsalad" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Kartoffelsalad</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--Separação Visual-->
+        <hr class="col-8" style="clear: both; border: 0; height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--vermelho-escuro), rgba(0, 0, 0, 0));">
+        
+        <div class="mt-5 text-center">
+            <h3>Pratos Rápidos</h3>
+        </div>
+        
+        <!--DIV que contém a segunda categoria de produtos-->
+        <div class="container categoria-cardapio mb-5">
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/batata.jpeg" alt="Batata" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Batata</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/casca.jpg" alt="Casca de Batata" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Casca de Batata</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/sopa_batata.jpg" alt="Sopa de Batata" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Sopa de Batata</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/chucrute.jpg" alt="Chucrute" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Chucrute</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--Separação Visual-->
+        <hr class="col-8" style="clear: both; border: 0; height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--vermelho-escuro), rgba(0, 0, 0, 0));">
+        
+        <div class="mt-5 text-center">
+            <h3>Bebidas</h3>
+        </div>
+        
+        <!--DIV que contém a terceira categoria de produtos-->
+        <div class="container categoria-cardapio mb-5">
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/refrigerante.jpeg" alt="Refrigerante" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Refrigerante</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/cerveja.jpg" alt="Cerveja" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Cerveja</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/vinho.jpeg" alt="Vinho" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Vinho</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/jägermeister.jpg" alt="Jägermeister" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Jägermeister</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--Separação Visual-->
+        <hr class="col-8" style="clear: both; border: 0; height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--vermelho-escuro), rgba(0, 0, 0, 0));">
+        
+        <div class="mt-5 text-center">
+            <h3>Sobremesas</h3>
+        </div>
+        
+        <!--DIV que contém a quarta categoria de produtos-->
+        <div class="container categoria-cardapio mb-5">
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/pretzel.jpg" alt="Pretzel" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Pretzel</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/cupcake.jpeg" alt="Cupcake" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/brownie.jpeg" alt="Brownie" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Brownie</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-cardapio mx-4 mt-4">
+                <img class="card-img-top" src="./images/strudel.jpg" alt="Strudel" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Strudel</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <br>
+        <p>Avenida Nove de Julho, 1932</p>
+        <p>Copyright © 2020 Restaurante. All rights reserved.</p>
+    </footer>
+</body>
+</html>

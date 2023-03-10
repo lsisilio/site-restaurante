@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+
+    <!--Ícone do site-->
+    <link rel="icon" href="./images/icon_logo.ico" type="image/x-icon">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Fonte utilizada-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-right bg-navbar">
+        <div class="container">
+            <!-- Marca do site -->
+            <a class="navbar-brand" href="#">
+                <img width="125px" height="125px" src="./images/logoRestaurant1.png" alt="Logo de nosso restaurante">
+            </a>
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"> Início </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Delivery </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cardapio.html"> Cardápio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> Contate-nos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trabalhe_aqui.html"> Trabalhe Conosco </a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <a href="#" id="link_insta" style="font-size:24px;"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Conteúdo Principal-->
+    <main>
+        <!--Ícone de cesta de compras e Barra de Progresso-->
+        <div class="m-4 d-flex justify-content-between">
+            <a href="#"><svg class="bi bi-basket justif" style="display: none;" width="3em" height="3em"></svg></a>
+            <img src="./images/1.png" alt="Barra de Progresso" width="500px">
+            <a href="#"><svg class="bi bi-basket justif" width="3em" height="3em" viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10.243 1.071a.5.5 0 0 1 .686.172l3 5a.5.5 0 1 1-.858.514l-3-5a.5.5 0 0 1 .172-.686zm-4.486 0a.5.5 0 0 0-.686.172l-3 5a.5.5 0 1 0 .858.514l3-5a.5.5 0 0 0-.172-.686z"/>
+                <path fill-rule="evenodd" d="M1 7v1h14V7H1zM.5 6a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H.5z"/>
+                <path fill-rule="evenodd" d="M14 9H2v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V9zM2 8a1 1 0 0 0-1 1v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1H2z"/>
+                <path fill-rule="evenodd" d="M4 10a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+            </svg></a>
+        </div>
+        
+        <div class="mt-5 text-center">
+            <h3>Pratos</h3>
+        </div>
+        <!--DIV que contém a primeira categoria de produtos-->
+        <div class="container mb-5 categoria-delivery-lg">
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/eisbein.jpg" alt="Eisbein" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Eisbein</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/kartoffelk.jpg" alt="Kartoffelklösse" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Kartoffelklösse</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/wurst.jpg" alt="Wurst" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Wurst</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/kartoffelsalat.jpg" alt="Kartoffelsalat" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Kartoffelsalat</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/batata.jpeg" alt="Batata" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Batata</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/casca.jpg" alt="Casca de Batata" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Casca de Batata</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/sopa_batata.jpg" alt="Sopa de Batata" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Sopa de Batata</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/chucrute.jpg" alt="Chucrute" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Chucrute</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+        </div>
+        
+        <!--Separação visual-->
+        <hr class="col-8" style="clear: both; border: 0; height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--vermelho-escuro), rgba(0, 0, 0, 0));">
+        
+        <div class="mt-5 text-center">
+            <h3>Bebidas</h3>
+        </div>
+        <!--DIV que contém a segunda categoria de produtos-->
+        <div class="container mb-5 categoria-delivery-sm">
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/refrigerante.jpeg" alt="Refrigerante" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Refrigerante</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/cerveja.jpg" alt="Cerveja" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Cerveja</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/vinho.jpeg" alt="Vinho" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Vinho</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/jägermeister.jpg" alt="Jägermeister" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Jägermeister</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--Separação visual-->
+        <hr class="col-8" style="clear: both; border: 0; height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--vermelho-escuro), rgba(0, 0, 0, 0));">
+        
+        <div class="mt-5 text-center">
+            <h3>Sobremesas</h3>
+        </div>
+        <!--DIV que contém a terceira categoria de produtos-->
+        <div class="container mb-5 categoria-delivery-sm">
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/pretzel.jpg" alt="Pretzel" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Pretzel</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/cupcake.jpeg" alt="Cupcake" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Cupcake</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/brownie.jpeg" alt="Brownie" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Brownie</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+            
+            <!--Card do produto-->
+            <div class="card-delivery mx-4 mt-4">
+                <img class="card-img-top" src="./images/strudel.jpg" alt="Strudel" height="145px">
+                <div class="card-body">
+                    <h5 class="card-title">Strudel</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat ipsa laborum ullam!</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>-</b></a>
+                    <p class="btn btn-danger mt-3 lblQuant col-3">0</p>
+                    <a href="#" class="btn btn-primary btnQuant col-4"><b>+</b></a>
+                </div>
+            </div>
+        </div>
+
+        <!--DIV com botões de decisão-->
+        <div class="text-center mb-5">
+            <button type="submit" class="btn text-center align-middle mx-5" style="width: 200px; height: 60px; background-color: var(--vermelho-escuro); color: white; font-size: 24px;">
+                <a href="./entrega.html" class="linkBtn" style="color: white;">AVANÇAR</a>
+            </button>                    
+            <button type="submit" class="btn text-center align-middle mx-5" style="width: 200px; height: 60px; background-color: #EEEEEE; border: 3px solid var(--vermelho-escuro); font-size: 24px;">
+                <a href="./index.html" class="linkBtn" style="color: var(--vermelho-escuro);">VOLTAR</a>
+            </button>
+        </div>
+    </main>
+</body>
+
+    <!--Footer-->
+    <footer>
+        <br>
+        <p>Avenida Nove de Julho, 1932</p>
+        <p>Copyright © 2020 Restaurante. All rights reserved.</p>
+    </footer>
+</html>

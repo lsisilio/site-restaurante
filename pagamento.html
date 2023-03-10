@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+
+    <!--Ícone do site-->
+    <link rel="icon" href="./images/icon_logo.ico" type="image/x-icon">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Fonte utilizada-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-right bg-navbar">
+        <div class="container">
+            <!-- Marca do site -->
+            <a class="navbar-brand" href="./index.html">
+                <img width="125px" height="125px" src="./images/logoRestaurant1.png" alt="Logo de nosso restaurante">
+            </a>
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"> Início </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./delivery.html"> Delivery </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cardapio.html"> Cardápio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> Contate-nos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trabalhe_aqui.html"> Trabalhe Conosco </a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <a href="#" id="link_insta" style="font-size:24px;"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--Barra de Progresso e Título-->
+    <div class="mt-5 text-center">
+        <img src="./images/3.png" alt="Barra de Progresso" width="500px">
+        <h1>Pagamento</h1>
+    </div>
+    <!--Separação Visual-->
+    <hr class="col-6" style="clear: both; border: 0; height: 2px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--vermelho-escuro), rgba(0, 0, 0, 0));">
+
+    
+    <!--Conteúdo Principal-->
+    <main>
+    <div class="container col-8 mx-auto">
+        <form>
+            <div class="mx-auto my-5">
+                <div class="form-group col-5 ml-5 float-left">
+                    <label for="inputNum">Número do cartão</label>
+                    <input type="number" class="form-control" id="inputNum">
+                </div>
+                <div class="form-group col-4 mr-5 float-right">
+                    <label for="inputDate">Data de Validade</label>
+                    <input type="date" class="form-control" id="inputDate">
+                </div>
+            </div>
+            <div class="mx-auto">
+                <div class="form-group col-6 my-5 ml-5 float-left">
+                    <label for="inputName">Nome impresso no cartão</label>
+                    <input type="name" class="form-control" id="inputName">
+                </div>
+                <div class="form-group col-3 my-5 mr-5 float-right">
+                    <label for="inputCvv">CVV</label>
+                    <input type="number" class="form-control" id="inputCvv">
+                </div>
+            </div>
+        </form>
+    
+        <!--DIV com botões de decisão-->
+        <div class="text-center mb-5">
+            <button type="submit" class="btn text-center mt-5 align-middle mx-5" style="width: 200px; height: 60px; background-color: var(--vermelho-escuro); color: white; font-size: 24px;">
+                <a href="./acompanhamento.html" class="linkBtn" style="color: white;">AVANÇAR</a>
+            </button>                    
+            <button type="submit" class="btn text-center mt-5 align-middle mx-5" style="width: 200px; height: 60px; background-color: #EEEEEE; border: 3px solid var(--vermelho-escuro); font-size: 24px;">
+                <a href="./entrega.html" class="linkBtn" style="color: var(--vermelho-escuro);">VOLTAR</a>
+            </button>
+        </div>
+    </div>
+    </main> 
+</body>
+</html>
